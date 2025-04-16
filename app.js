@@ -27,25 +27,25 @@ app.get('/bacheca', (req, res) => {
         {
             titolo: "Crackers alla barbabietola",
             contenuto: "Snack stuzzicante e originale",
-            immagine: "public/image/cracker_barbabietola.jpeg",
+            immagine: "public/images/cracker_barbabietola.jpeg",
             tags: ["tag1, tag2, tag3, tag4"]
         },
         {
             titolo: "Pane fritto dolce",
             contenuto: "Golosa ricetta antispreco",
-            immagine: "public/image/pane_fritto_dolce.jpeg",
+            immagine: "public/images/pane_fritto_dolce.jpeg",
             tags: ["tag1, tag2, tag3, tag4"]
         },
         {
             titolo: "Pasta alla barbabietola",
             contenuto: "Primo piatto dai colori vivaci",
-            immagine: "public/image/pasta_barbabietola",
+            immagine: "public/images/pasta_barbabietola",
             tags: ["tag1, tag2, tag3, tag4"]
         },
         {
             titolo: "Torta Paesana",
             contenuto: "Dolce di origine Lombarda",
-            immagine: "public/image/torta_paesana.jpeg",
+            immagine: "public/images/torta_paesana.jpeg",
             tags: ["tag1, tag2, tag3, tag4"]
         },
     ]
