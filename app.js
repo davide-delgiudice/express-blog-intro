@@ -22,31 +22,31 @@ app.get('/bacheca', (req, res) => {
             titolo: "Ciambellone",
             contenuto: "Un dolce profumato e soffice",
             immagine: "public/images/ciambellone.jpeg",
-            tags: ["tag1, tag2, tag3, tag4"]
+            tags: ["uova, zucchero, farina, lievito"]
         },
         {
             titolo: "Crackers alla barbabietola",
             contenuto: "Snack stuzzicante e originale",
             immagine: "public/images/cracker_barbabietola.jpeg",
-            tags: ["tag1, tag2, tag3, tag4"]
+            tags: ["farina di riso, fiocchi di avena, barbabietole precotte, olio di oliva"]
         },
         {
             titolo: "Pane fritto dolce",
             contenuto: "Golosa ricetta antispreco",
             immagine: "public/images/pane_fritto_dolce.jpeg",
-            tags: ["tag1, tag2, tag3, tag4"]
+            tags: ["pane raffermo, latte intero, uova, zucchero"]
         },
         {
             titolo: "Pasta alla barbabietola",
             contenuto: "Primo piatto dai colori vivaci",
             immagine: "public/images/pasta_barbabietola",
-            tags: ["tag1, tag2, tag3, tag4"]
+            tags: ["pennette 5 cereali, barbabietole precotte, scalogno, olio di oliva"]
         },
         {
             titolo: "Torta Paesana",
             contenuto: "Dolce di origine Lombarda",
             immagine: "public/images/torta_paesana.jpeg",
-            tags: ["tag1, tag2, tag3, tag4"]
+            tags: ["pane raffermo, uova, cacao amaro, uvetta"]
         },
     ]
 
