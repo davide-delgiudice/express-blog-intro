@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     res.send('Server del mio blog');
 })
 
-
+// definisco la rotta bacheca che restituisce un array di oggetti
 app.get('/bacheca', (req, res) => {
     const ricette = [
         {
