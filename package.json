@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/davide-delgiudice/express-blog-intro/issues"
   },
-  "homepage": "https://github.com/davide-delgiudice/express-blog-intro#readme"
+  "homepage": "https://github.com/davide-delgiudice/express-blog-intro#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
