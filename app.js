@@ -22,38 +22,47 @@ app.get('/bacheca', (req, res) => {
             titolo: "Ciambellone",
             contenuto: "Un dolce profumato e soffice",
             immagine: "public/images/ciambellone.jpeg",
-            tags: ["uova, zucchero, farina, lievito"]
+            tags: ["uova", "zucchero", "farina", "lievito"]
         },
         {
             titolo: "Crackers alla barbabietola",
             contenuto: "Snack stuzzicante e originale",
             immagine: "public/images/cracker_barbabietola.jpeg",
-            tags: ["farina di riso, fiocchi di avena, barbabietole precotte, olio di oliva"]
+            tags: ["farina di riso", "fiocchi di avena", "barbabietole precotte", "olio di oliva"]
         },
         {
             titolo: "Pane fritto dolce",
             contenuto: "Golosa ricetta antispreco",
             immagine: "public/images/pane_fritto_dolce.jpeg",
-            tags: ["pane raffermo, latte intero, uova, zucchero"]
+            tags: ["pane raffermo", "latte intero", "uova", "zucchero"]
         },
         {
             titolo: "Pasta alla barbabietola",
             contenuto: "Primo piatto dai colori vivaci",
             immagine: "public/images/pasta_barbabietola",
-            tags: ["pennette 5 cereali, barbabietole precotte, scalogno, olio di oliva"]
+            tags: ["pennette 5 cereali", "barbabietole precotte", "scalogno", "olio di oliva"]
         },
         {
             titolo: "Torta Paesana",
             contenuto: "Dolce di origine Lombarda",
             immagine: "public/images/torta_paesana.jpeg",
-            tags: ["pane raffermo, uova, cacao amaro, uvetta"]
+            tags: ["pane raffermo", "uova", "cacao amaro", "uvetta"]
         },
-    ]
+    ];
+
+    // const ingrediente = req.query.ingrediente;
+    // let filtroRicette;
+    // if(ingrediente){
+    //     filtroRicette = ricette.filter((ricetta) => {
+    //         return ricetta.tags.includes(ingrediente);
+    //     })
+    // }
+    // else{
+    //     filtroRicette = ricette;
+    // }
 
     res.json(ricette);
 })
-
-
 
 
 // impostiamo il server in ascolto sulla porta stabilita
